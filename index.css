@@ -1,0 +1,83 @@
+body{
+    width: 96vw;
+    height: 100vh;
+}
+#main-head,#main-p{
+    text-align: center;
+}
+.credits{
+    position: absolute;
+    top: 1%;
+    left: 90%;
+}
+.credits h2{
+    margin-bottom: 0;
+    color: red;
+}
+.credits p{
+    margin-top: 0;
+    font-weight: 900;
+}
+.cities{
+    display: flex;
+    flex-direction: row;
+    width: 102%;
+    height: 50%;
+}
+.goa,.kerala,.srinagar{
+    border: solid 1px black;
+    width: 33%;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style-type: square;
+    margin: 10px;
+}
+.city{
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+.goa h3,.srinagar h3,.kerala h3{
+    margin-bottom: 0;
+    font-size: x-large;
+}
+.climate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 102%;
+    height: 23%;
+}
+.summer,.winter,.rainy{
+    border: solid 1px black;
+    width: 40%;
+    height: 100%;
+    margin: 10px;
+}
+.summer p,.winter p,.rainy p{
+    text-align: center;
+    padding: 5%;
+}
+h2{
+    text-align: center;
+}
+.goa{
+    height: 99%;
+    background-image: url("goa.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay1{
+    width: 20%;
+    height: 40%;
+    border: solid 1px black;
+    position: absolute;
+    top: 20%;
+    left: 7.5%;
+    background: linear-gradient(45deg, black 0%, white 100%);
+    z-index: 1;
+}
